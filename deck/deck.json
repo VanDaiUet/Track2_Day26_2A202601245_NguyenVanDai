@@ -1,13 +1,13 @@
 {
  "version": 1,
- "team": "starter-deck",
+ "team": "nguyen-van-dai",
  "cards": [
   {
    "id": "atk_01",
    "kind": "attack",
    "ask": {
     "type": "which_day_covers",
-    "concept": "Concept:baggage/w/014",
+    "concept": "Concept:speculative-decoding/w/086",
     "require": [
      "course_day",
      "track",
@@ -22,7 +22,7 @@
     "target": "mcp:slides",
     "op": "shadow_server",
     "value": {
-     "decoy_path_id": "3326cb76"
+     "decoy_path_id": "0e11ae43"
     }
    },
    "trigger": {
@@ -35,7 +35,7 @@
    "kind": "attack",
    "ask": {
     "type": "which_day_covers",
-    "concept": "Concept:stategraph/w/055",
+    "concept": "Concept:rlhf/w/041",
     "require": [
      "course_day",
      "track",
@@ -50,7 +50,7 @@
     "target": "mcp:slides",
     "op": "swap_replica",
     "value": {
-     "path_id": "e0614beb",
+     "path_id": "7a8d8046",
      "scope": "header"
     }
    },
@@ -64,7 +64,7 @@
    "kind": "attack",
    "ask": {
     "type": "current_version_of",
-    "path_id": "053195a5",
+    "path_id": "d8f95a7b",
     "require": [
      "fresher",
      "w_anchor",
@@ -80,7 +80,7 @@
     "target": "mcp:slides",
     "op": "swap_replica",
     "value": {
-     "path_id": "053195a5",
+     "path_id": "d8f95a7b",
      "scope": "content"
     }
    },
